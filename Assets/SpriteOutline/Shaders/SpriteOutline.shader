@@ -1,4 +1,4 @@
-﻿Shader "Unlit/SpriteOutline"
+﻿Shader "ShaderLibrary/SpriteOutline"
 {
 	Properties
 	{
@@ -29,7 +29,6 @@
 			struct v2f
 			{
 				float2 uv : TEXCOORD0;
-				UNITY_FOG_COORDS(1)
 				float4 vertex : SV_POSITION;
 			};
 
