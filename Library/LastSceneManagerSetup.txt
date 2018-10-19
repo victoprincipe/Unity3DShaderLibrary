@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Snow/Scenes/SnowShaderScene.unity
+  isLoaded: 1
+  isActive: 1
